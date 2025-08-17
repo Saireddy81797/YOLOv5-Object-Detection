@@ -1,0 +1,2 @@
+# Train YOLOv5 on custom dataset
+python train.py --img 416 --batch 16 --epochs 10 --data custom.yaml --weights yolov5s.pt --name yolo_custom
