@@ -1,0 +1,7 @@
+# Custom dataset config for YOLOv5
+train: ./data/images/train
+val: ./data/images/val
+
+nc: 2  # number of classes (change according to dataset, e.g., 2 for recyclable vs non-recyclable)
+
+names: ['recyclable', 'non-recyclable']
